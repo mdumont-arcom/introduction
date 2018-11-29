@@ -50,7 +50,7 @@ public class ProcessCommunication
 			System.out.println("read boolean value from datapoint " + group);
 			final boolean value = pc.readBool(new GroupAddress(group));
 			System.out.println("datapoint " + group + " value = " + value);
-
+			
 			// Uncomment the next line, if you want to write back the same value to the KNX network
 			// pc.write(group, value);
 		}

@@ -36,7 +36,7 @@ public class CreateUsbLink
 	/**
 	 * Specify your KNX USB device; you can either use the product or manufacturer name, or the USB vendor:product ID.
 	 */
-	private static final String device = "weinzierl";
+	private static final String device = "16d0:0490";
 
 	public static void main(final String[] args)
 	{
